@@ -26,6 +26,8 @@ def get_weather():
 
 window = tk.Tk()
 window.title('WeatherApp')
+window.geometry("600x500")
+window.resizable(True, True)
 
 city_label =tk.Label(window, text ="City:")
 city_label.pack()
